@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CB26692A1E1BB11E009B598A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669291E1BB11E009B598A /* AppDelegate.swift */; };
-		CB26692C1E1BB11E009B598A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26692B1E1BB11E009B598A /* ViewController.swift */; };
 		CB26692F1E1BB11E009B598A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB26692D1E1BB11E009B598A /* Main.storyboard */; };
 		CB2669311E1BB11E009B598A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2669301E1BB11E009B598A /* Assets.xcassets */; };
 		CB2669341E1BB11E009B598A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2669321E1BB11E009B598A /* LaunchScreen.storyboard */; };
+		CB2669441E1BB4FE009B598A /* JS_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669431E1BB4FE009B598A /* JS_MainViewController.swift */; };
+		CB2669461E1BBEBA009B598A /* JS_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669451E1BBEBA009B598A /* JS_HomeViewController.swift */; };
+		CB2669481E1BBED0009B598A /* JS_DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669471E1BBED0009B598A /* JS_DiscoverViewController.swift */; };
+		CB26694A1E1BBF04009B598A /* JS_MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669491E1BBF04009B598A /* JS_MessageViewController.swift */; };
+		CB26694C1E1BBF22009B598A /* JS_ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26694B1E1BBF22009B598A /* JS_ProfileViewController.swift */; };
+		CB26694F1E1C21AB009B598A /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = CB26694E1E1C21AB009B598A /* MainVCSettings.json */; };
+		CB2669531E1C3747009B598A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669521E1C3747009B598A /* UIButton+Extension.swift */; };
+		CB2669551E1C3841009B598A /* JS_tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669541E1C3841009B598A /* JS_tabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB2669261E1BB11E009B598A /* WB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2669291E1BB11E009B598A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB26692B1E1BB11E009B598A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB26692E1E1BB11E009B598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB2669301E1BB11E009B598A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2669331E1BB11E009B598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2669351E1BB11E009B598A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2669431E1BB4FE009B598A /* JS_MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_MainViewController.swift; sourceTree = "<group>"; };
+		CB2669451E1BBEBA009B598A /* JS_HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_HomeViewController.swift; sourceTree = "<group>"; };
+		CB2669471E1BBED0009B598A /* JS_DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_DiscoverViewController.swift; sourceTree = "<group>"; };
+		CB2669491E1BBF04009B598A /* JS_MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_MessageViewController.swift; sourceTree = "<group>"; };
+		CB26694B1E1BBF22009B598A /* JS_ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_ProfileViewController.swift; sourceTree = "<group>"; };
+		CB26694E1E1C21AB009B598A /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		CB2669521E1C3747009B598A /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		CB2669541E1C3841009B598A /* JS_tabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_tabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,86 @@
 		CB2669281E1BB11E009B598A /* WB */ = {
 			isa = PBXGroup;
 			children = (
+				CB26693D1E1BB4C9009B598A /* Classes */,
 				CB2669291E1BB11E009B598A /* AppDelegate.swift */,
-				CB26692B1E1BB11E009B598A /* ViewController.swift */,
-				CB26692D1E1BB11E009B598A /* Main.storyboard */,
+				CB26694E1E1C21AB009B598A /* MainVCSettings.json */,
+				CB26694D1E1BD146009B598A /* StoryBoard Refactor */,
+				CB2669501E1C36E3009B598A /* Tools */,
 				CB2669301E1BB11E009B598A /* Assets.xcassets */,
 				CB2669321E1BB11E009B598A /* LaunchScreen.storyboard */,
 				CB2669351E1BB11E009B598A /* Info.plist */,
 			);
 			path = WB;
+			sourceTree = "<group>";
+		};
+		CB26693D1E1BB4C9009B598A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB2669401E1BB4C9009B598A /* Main */,
+				CB26693F1E1BB4C9009B598A /* Home */,
+				CB26693E1E1BB4C9009B598A /* Discover */,
+				CB2669411E1BB4C9009B598A /* Massege */,
+				CB2669421E1BB4C9009B598A /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB26693E1E1BB4C9009B598A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				CB2669471E1BBED0009B598A /* JS_DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		CB26693F1E1BB4C9009B598A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB2669451E1BBEBA009B598A /* JS_HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB2669401E1BB4C9009B598A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB2669431E1BB4FE009B598A /* JS_MainViewController.swift */,
+				CB2669541E1C3841009B598A /* JS_tabBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CB2669411E1BB4C9009B598A /* Massege */ = {
+			isa = PBXGroup;
+			children = (
+				CB2669491E1BBF04009B598A /* JS_MessageViewController.swift */,
+			);
+			path = Massege;
+			sourceTree = "<group>";
+		};
+		CB2669421E1BB4C9009B598A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CB26694B1E1BBF22009B598A /* JS_ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CB26694D1E1BD146009B598A /* StoryBoard Refactor */ = {
+			isa = PBXGroup;
+			children = (
+				CB26692D1E1BB11E009B598A /* Main.storyboard */,
+			);
+			path = "StoryBoard Refactor";
+			sourceTree = "<group>";
+		};
+		CB2669501E1C36E3009B598A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CB2669521E1C3747009B598A /* UIButton+Extension.swift */,
+			);
+			name = Tools;
+			path = "StoryBoard Refactor/Tools";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,12 +176,14 @@
 		CB26691E1E1BB11E009B598A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JS_;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "浩哲 夏";
 				TargetAttributes = {
 					CB2669251E1BB11E009B598A = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +213,7 @@
 			files = (
 				CB2669341E1BB11E009B598A /* LaunchScreen.storyboard in Resources */,
 				CB2669311E1BB11E009B598A /* Assets.xcassets in Resources */,
+				CB26694F1E1C21AB009B598A /* MainVCSettings.json in Resources */,
 				CB26692F1E1BB11E009B598A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB26692C1E1BB11E009B598A /* ViewController.swift in Sources */,
+				CB26694A1E1BBF04009B598A /* JS_MessageViewController.swift in Sources */,
+				CB2669481E1BBED0009B598A /* JS_DiscoverViewController.swift in Sources */,
+				CB2669551E1C3841009B598A /* JS_tabBar.swift in Sources */,
+				CB2669441E1BB4FE009B598A /* JS_MainViewController.swift in Sources */,
 				CB26692A1E1BB11E009B598A /* AppDelegate.swift in Sources */,
+				CB2669461E1BBEBA009B598A /* JS_HomeViewController.swift in Sources */,
+				CB26694C1E1BBF22009B598A /* JS_ProfileViewController.swift in Sources */,
+				CB2669531E1C3747009B598A /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +245,7 @@
 				CB26692E1E1BB11E009B598A /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CB2669321E1BB11E009B598A /* LaunchScreen.storyboard */ = {
@@ -258,10 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.WB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,6 +369,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.WB;
