@@ -19,6 +19,14 @@
 		CB26694F1E1C21AB009B598A /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = CB26694E1E1C21AB009B598A /* MainVCSettings.json */; };
 		CB2669531E1C3747009B598A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669521E1C3747009B598A /* UIButton+Extension.swift */; };
 		CB2669551E1C3841009B598A /* JS_tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669541E1C3841009B598A /* JS_tabBar.swift */; };
+		CB2669731E22448D009B598A /* JS_MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26696F1E22448D009B598A /* JS_MiddleViewController.swift */; };
+		CB2669741E22448D009B598A /* JS_MiddleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2669701E22448D009B598A /* JS_MiddleViewController.xib */; };
+		CB2669751E22448D009B598A /* JS_Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669711E22448D009B598A /* JS_Popover.swift */; };
+		CB2669761E22448D009B598A /* JS_PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669721E22448D009B598A /* JS_PresentationController.swift */; };
+		CB2669781E224498009B598A /* JS_NavLogInBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2669771E224498009B598A /* JS_NavLogInBarButton.swift */; };
+		CB26697C1E2244CC009B598A /* JS_PreviousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26697A1E2244CC009B598A /* JS_PreviousView.swift */; };
+		CB26697D1E2244CC009B598A /* JS_PreviousView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26697B1E2244CC009B598A /* JS_PreviousView.xib */; };
+		CB26697F1E2244D4009B598A /* JS_BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26697E1E2244D4009B598A /* JS_BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,14 @@
 		CB26694E1E1C21AB009B598A /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		CB2669521E1C3747009B598A /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		CB2669541E1C3841009B598A /* JS_tabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_tabBar.swift; sourceTree = "<group>"; };
+		CB26696F1E22448D009B598A /* JS_MiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_MiddleViewController.swift; sourceTree = "<group>"; };
+		CB2669701E22448D009B598A /* JS_MiddleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JS_MiddleViewController.xib; sourceTree = "<group>"; };
+		CB2669711E22448D009B598A /* JS_Popover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_Popover.swift; sourceTree = "<group>"; };
+		CB2669721E22448D009B598A /* JS_PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_PresentationController.swift; sourceTree = "<group>"; };
+		CB2669771E224498009B598A /* JS_NavLogInBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_NavLogInBarButton.swift; sourceTree = "<group>"; };
+		CB26697A1E2244CC009B598A /* JS_PreviousView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_PreviousView.swift; sourceTree = "<group>"; };
+		CB26697B1E2244CC009B598A /* JS_PreviousView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JS_PreviousView.xib; sourceTree = "<group>"; };
+		CB26697E1E2244D4009B598A /* JS_BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,7 @@
 		CB26693F1E1BB4C9009B598A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CB26696E1E22448D009B598A /* Popover */,
 				CB2669451E1BBEBA009B598A /* JS_HomeViewController.swift */,
 			);
 			path = Home;
@@ -111,7 +128,9 @@
 		CB2669401E1BB4C9009B598A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CB2669791E2244CC009B598A /* PreviousView */,
 				CB2669431E1BB4FE009B598A /* JS_MainViewController.swift */,
+				CB26697E1E2244D4009B598A /* JS_BaseViewController.swift */,
 				CB2669541E1C3841009B598A /* JS_tabBar.swift */,
 			);
 			path = Main;
@@ -144,10 +163,31 @@
 		CB2669501E1C36E3009B598A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CB2669771E224498009B598A /* JS_NavLogInBarButton.swift */,
 				CB2669521E1C3747009B598A /* UIButton+Extension.swift */,
 			);
 			name = Tools;
 			path = "StoryBoard Refactor/Tools";
+			sourceTree = "<group>";
+		};
+		CB26696E1E22448D009B598A /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				CB26696F1E22448D009B598A /* JS_MiddleViewController.swift */,
+				CB2669701E22448D009B598A /* JS_MiddleViewController.xib */,
+				CB2669711E22448D009B598A /* JS_Popover.swift */,
+				CB2669721E22448D009B598A /* JS_PresentationController.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		CB2669791E2244CC009B598A /* PreviousView */ = {
+			isa = PBXGroup;
+			children = (
+				CB26697A1E2244CC009B598A /* JS_PreviousView.swift */,
+				CB26697B1E2244CC009B598A /* JS_PreviousView.xib */,
+			);
+			path = PreviousView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB26697D1E2244CC009B598A /* JS_PreviousView.xib in Resources */,
+				CB2669741E22448D009B598A /* JS_MiddleViewController.xib in Resources */,
 				CB2669341E1BB11E009B598A /* LaunchScreen.storyboard in Resources */,
 				CB2669311E1BB11E009B598A /* Assets.xcassets in Resources */,
 				CB26694F1E1C21AB009B598A /* MainVCSettings.json in Resources */,
@@ -225,10 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB26697F1E2244D4009B598A /* JS_BaseViewController.swift in Sources */,
+				CB2669751E22448D009B598A /* JS_Popover.swift in Sources */,
 				CB26694A1E1BBF04009B598A /* JS_MessageViewController.swift in Sources */,
 				CB2669481E1BBED0009B598A /* JS_DiscoverViewController.swift in Sources */,
+				CB2669731E22448D009B598A /* JS_MiddleViewController.swift in Sources */,
+				CB2669781E224498009B598A /* JS_NavLogInBarButton.swift in Sources */,
+				CB2669761E22448D009B598A /* JS_PresentationController.swift in Sources */,
 				CB2669551E1C3841009B598A /* JS_tabBar.swift in Sources */,
 				CB2669441E1BB4FE009B598A /* JS_MainViewController.swift in Sources */,
+				CB26697C1E2244CC009B598A /* JS_PreviousView.swift in Sources */,
 				CB26692A1E1BB11E009B598A /* AppDelegate.swift in Sources */,
 				CB2669461E1BBEBA009B598A /* JS_HomeViewController.swift in Sources */,
 				CB26694C1E1BBF22009B598A /* JS_ProfileViewController.swift in Sources */,
@@ -398,6 +446,7 @@
 				CB26693A1E1BB11E009B598A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
